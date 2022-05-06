@@ -3,5 +3,6 @@ using Brudnopis;
 
 Console.WriteLine("Hello, World!");
 
-new TestDecimalsCulture().Test();
-new IdentityServerGrantTypesTest().Test();
+//new TestDecimalsCulture().Test();
+//new IdentityServerGrantTypesTest().Test();
+new ExpessionsTest().RunTest();
