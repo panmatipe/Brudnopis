@@ -5,15 +5,7 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brudnopis", "Brudnopis\Brudnopis.csproj", "{22EDD095-40F8-4C6C-AB34-06ED3FF72022}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLiteApi", "SQLiteApi\SQLiteApi.csproj", "{3E9593D3-2EA4-4597-B287-BD6392E2A1AA}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp", "WinFormsApp\WinFormsApp.csproj", "{38AFFD36-32D6-4FFE-B577-2529BE7BA29B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLiteDemo", "SQLiteDemo", "{26FC0723-E32E-47F0-81E0-E090812AAFFD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainModel", "DomainModel\DomainModel.csproj", "{2DFD81F4-4317-4B8B-8B50-AA931085F2D9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTests", "MSTests\MSTests.csproj", "{FA67515B-F51A-4D25-9114-034BCF602F39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSTests", "MSTests\MSTests.csproj", "{FA67515B-F51A-4D25-9114-034BCF602F39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,18 +17,6 @@ Global
 		{22EDD095-40F8-4C6C-AB34-06ED3FF72022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22EDD095-40F8-4C6C-AB34-06ED3FF72022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22EDD095-40F8-4C6C-AB34-06ED3FF72022}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E9593D3-2EA4-4597-B287-BD6392E2A1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E9593D3-2EA4-4597-B287-BD6392E2A1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E9593D3-2EA4-4597-B287-BD6392E2A1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E9593D3-2EA4-4597-B287-BD6392E2A1AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{38AFFD36-32D6-4FFE-B577-2529BE7BA29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38AFFD36-32D6-4FFE-B577-2529BE7BA29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38AFFD36-32D6-4FFE-B577-2529BE7BA29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38AFFD36-32D6-4FFE-B577-2529BE7BA29B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2DFD81F4-4317-4B8B-8B50-AA931085F2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DFD81F4-4317-4B8B-8B50-AA931085F2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DFD81F4-4317-4B8B-8B50-AA931085F2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DFD81F4-4317-4B8B-8B50-AA931085F2D9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA67515B-F51A-4D25-9114-034BCF602F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FA67515B-F51A-4D25-9114-034BCF602F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA67515B-F51A-4D25-9114-034BCF602F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,11 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{3E9593D3-2EA4-4597-B287-BD6392E2A1AA} = {26FC0723-E32E-47F0-81E0-E090812AAFFD}
-		{38AFFD36-32D6-4FFE-B577-2529BE7BA29B} = {26FC0723-E32E-47F0-81E0-E090812AAFFD}
-		{2DFD81F4-4317-4B8B-8B50-AA931085F2D9} = {26FC0723-E32E-47F0-81E0-E090812AAFFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E282931-9BD3-4377-81C0-FCD3DAFBDE8F}
